@@ -1,0 +1,28 @@
+{
+	"name": "LabelOverlap",
+	"version": "0.1.0",
+	"title": "LabelOverlap",
+	"author": {
+		"name": "Aurélien Doignon",
+		"url": "http://aureliendoignon.fr"
+	},
+	"licenses": [
+		{
+			"type": "",
+			"url": ""
+		}
+	],
+	"dependencies": {
+		"highcharts": "2.0"
+	},
+	"description": "Highchart plugin to avoid series labels overlap",
+	"keywords": [
+		"label",
+		"overlap",
+                "overlay"
+	],
+	"homepage": "https://github.com/aureliendoignon/LabelOverlap",	
+	"docs": "https://github.com/aureliendoignon/LabelOverlap",	
+	"bugs": "https://github.com/aureliendoignon/LabelOverlap",
+	"download": "https://github.com/aureliendoignon/LabelOverlap"
+}
