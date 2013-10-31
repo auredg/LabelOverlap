@@ -22,7 +22,7 @@
         each(chart.series, function(serie_index, serie) {
             // Take each label of points
             each(serie.data, function(data_index, point) {
-                if (typeof(point.dataLabel) != 'undefined') {
+                if (typeof(point.dataLabel) !== 'undefined') {
                     chartLabels[chart.index].push(point.dataLabel);
                 }
             });
@@ -60,7 +60,7 @@
                     // Verify if the new label y position is not below the xAxis
                     if (test.y + label.height < chart.xAxis[0].lineTop) {
                         
-                        // If overlap, set the new y. If not end of while
+                        // If overlap, set the new y. If not, condition set to false to end loop
                         if (overlap) {
                             label.attr({y: test.y});
                         } else {
